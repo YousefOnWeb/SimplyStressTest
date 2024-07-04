@@ -7,7 +7,7 @@ The script:
 - Only supports C++
 - **Clears your entire terminal when used**, so use it in a dedicated terminal window/tab
 - Assumes you have a C++ compiler installed locally that you can use from your terminal (to make sure, run ```g++ --version```.)
-- Assumes your generator outputs the generated test to standard ounput
+- Assumes your generator outputs the generated test to standard output when run
 
 ### Usage
 
