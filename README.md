@@ -5,7 +5,6 @@ A very simple CLI program used to stress-test a problem solution against another
 The script:
 
 - Only supports C++
-- **Clears your entire terminal when used**, so use it in a dedicated terminal window/tab
 - Assumes you have a C++ compiler installed locally that you can use from your terminal (to make sure, run ```g++ --version```.)
 - Assumes your generator outputs the generated test to standard output when run
 
@@ -37,19 +36,20 @@ How the result of the stress-test looks like in the terminal:
 
 ```
 +----------------------+
-|     Iteration 5      |
-| Generated test case: |
-| 1                    |
-| 3                    |
-| 3 4 2                |
-|                      |
-| Outputs differ!      |
-|                      |
-| Correct output:      |
-| 3                    |
-|                      |
-| Test output:         |
-| 2                    |
+     Iteration 38
+Generated test case:
+1
+2
+158
+
+Outputs differ!
+
+Correct output:
+15
+
+Tested code's output:
+158
+
 +----------------------+
 ```
 
