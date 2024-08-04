@@ -2,6 +2,9 @@
 
 A very simple CLI program used to stress-test a problem solution against another solution given a test generator that generates a single test.
 
+### Why not just using any of the more-polished/feature-rich existing alternatives like [Quick Test CLI](https://luchobazz.github.io/quicktest/)?
+Becasue those alternatives mostly seem to be overly refined compared to my minimal need which is to simply stress test (I neither need further convenience features nor a good-looking CLI).
+
 The script:
 
 - Only supports C++
